@@ -7,11 +7,9 @@ public class Employee {
     public String origin;
     public String role;
     public int age;
-
     public String getName() {
         return name;
     }
-
     public String getOrigin() {
         return origin;
     }
