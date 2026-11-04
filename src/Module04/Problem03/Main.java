@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Pilih jenis hewan yang ingin diinputkan:");
         System.out.println("1 = Kucing");
         System.out.println("2 = Anjing");
-        System.out.println("Masukan pilihan: ");
+        System.out.print("Masukan pilihan: ");
         int choice = scanner.nextInt();
         scanner.nextLine();
 
