@@ -21,7 +21,7 @@ public class Main {
             System.out.print("Warna Bulu: ");
             String furColor = scanner.nextLine();
 
-            Cat cat = new Cat(breed, name, furColor);
+            Cat cat = new Cat(name, breed, furColor);
             cat.displayDetailCat();
         } else if (choice == 2) {
             System.out.print("Nama hewan peliharaan: ");
