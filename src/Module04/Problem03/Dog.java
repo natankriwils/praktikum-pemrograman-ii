@@ -14,8 +14,8 @@ public class Dog extends Pet {
         super.display();
         System.out.println("Memiliki warna bulu: " + furColor + "\n");
         System.out.println("Memiliki kemampuan: ");
-        for (int i = 0; i < abilities.length; i++) {
-        System.out.print(abilities[i] + (i == abilities.length - 1 ? "" : " "));
+        for (String kemampuanAnjing : kemampuan) {
+            System.out.print(kemampuanAnjing + " ");
     }
     System.out.println();
     }
