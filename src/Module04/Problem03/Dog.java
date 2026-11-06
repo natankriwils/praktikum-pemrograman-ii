@@ -12,11 +12,11 @@ public class Dog extends Pet {
 
     public void displayDetailDog() {
         super.display();
-        System.out.println("Memiliki warna bulu: " + furColor + "\n");
-        System.out.println("Memiliki kemampuan: ");
-        for (String kemampuanAnjing : kemampuan) {
-            System.out.print(kemampuanAnjing + " ");
-    }
-    System.out.println();
+        System.out.print("Memiliki warna bulu: " + furColor + "\n");
+        System.out.print("Memiliki kemampuan: ");
+        for (String dogAbilities : abilities) {
+            System.out.print(dogAbilities + " ");
+        }
+        System.out.println();
     }
 }
